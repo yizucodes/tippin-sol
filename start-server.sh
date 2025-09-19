@@ -3,6 +3,9 @@
 # Exit on error
 set -e
 
+git submodule init
+git submodule sync
+
 # Change to coral-server directory
 cd coral-server
 
