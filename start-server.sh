@@ -4,7 +4,7 @@
 set -e
 
 git submodule init
-git submodule sync
+git submodule update
 
 # Change to coral-server directory
 cd coral-server
