@@ -30,6 +30,9 @@ REGISTRY_FILE_PATH="../registry.toml" ./gradlew run
 > We use the `REGISTRY_FILE_PATH` environment variable to tell Coral Server where our custom `registry.toml` is.
 
 ## Running Coral Studio
+
 ```bash
 npx @coral-protocol/coral-studio
 ```
+
+We can then visit Coral Studio at [http://localhost:3000/](http://localhost:3000/)
