@@ -1,6 +1,7 @@
 [agent]
 name = "interface"
 version = "0.0.1"
+description = "Agent designed to interface with the end user"
 
 [options.MODEL_API_KEY]
 type = "string"
