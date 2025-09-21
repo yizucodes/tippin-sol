@@ -1,0 +1,51 @@
+[agent]
+name = "validation"
+version = "0.0.1"
+description = "Tip validation agent with fraud detection"
+
+[options.MISTRAL_API_KEY]
+type = "string"
+description = "Mistral API key (free tier)"
+
+[options.MODEL_NAME]
+type = "string"
+description = "Mistral model to use"
+default = "mistral-small"
+
+[options.MODEL_PROVIDER]
+type = "string"
+description = "Mistral provider"
+default = "mistral"
+
+[options.MODEL_TEMPERATURE]
+type = "string"
+description = "Model temperature"
+default = "0.1"
+
+[options.MODEL_MAX_TOKENS]
+type = "string"
+description = "Maximum tokens"
+default = "4000"
+
+[options.CORAL_CONNECTION_URL]
+type = "string"
+description = "Coral server connection URL"
+default = "http://localhost:8080"
+
+[options.TIMEOUT_MS]
+type = "string"
+description = "Connection timeout in milliseconds"
+default = "60000"
+
+[options.MIN_TIP_AMOUNT]
+type = "string"
+description = "Minimum tip amount in SOL"
+default = "0.001"
+
+[options.MAX_TIP_AMOUNT]
+type = "string"
+description = "Maximum tip amount in SOL"
+default = "100.0"
+
+[runtimes.executable]
+command = ["bash", "-c", "./run_agent.sh main.py"]

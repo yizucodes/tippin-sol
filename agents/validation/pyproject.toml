@@ -1,0 +1,17 @@
+[project]
+name = "coral-validation-agent"
+version = "0.1.0"
+description = "Validation agent for crypto tipping"
+requires-python = ">=3.9"
+dependencies = [
+    "langchain==0.3.25",
+    "langchain-community==0.3.24",
+    "langchain-mcp-adapters==0.1.7",
+    "langchain-mistralai==0.1.0",
+    "python-dotenv>=1.0.0",
+    "uv>=0.7.17",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
