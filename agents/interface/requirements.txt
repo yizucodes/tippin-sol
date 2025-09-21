@@ -1,1 +1,11 @@
-uv
+# Core dependencies
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-mcp-adapters==0.1.7
+langchain-mistralai==0.1.0
+python-dotenv>=1.0.0
+uv>=0.7.17
+
+# Optional: For future Bluesky integration
+# atproto>=0.0.40
+# tweepy>=4.14.0
