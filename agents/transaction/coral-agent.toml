@@ -30,7 +30,7 @@ default = "4000"
 [options.CORAL_CONNECTION_URL]
 type = "string"
 description = "Coral server connection URL"
-default = "http://localhost:8080"
+default = "http://localhost:5555"
 
 [options.TIMEOUT_MS]
 type = "string"

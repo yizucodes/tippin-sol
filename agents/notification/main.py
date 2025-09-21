@@ -103,7 +103,7 @@ class ConsoleNotifier:
 def load_config() -> Dict[str, Any]:
     """Load configuration from environment variables"""
     config = {
-        "coral_connection_url": os.getenv("CORAL_CONNECTION_URL", "http://localhost:8080"),
+        "coral_connection_url": os.getenv("CORAL_CONNECTION_URL", "http://localhost:5555"),
         "agent_id": os.getenv("NOTIFICATION_AGENT_ID", "notification"),
         "model_name": os.getenv("MODEL_NAME", "mistral-small"),
         "model_provider": os.getenv("MODEL_PROVIDER", "mistral"),

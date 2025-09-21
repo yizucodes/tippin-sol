@@ -69,7 +69,7 @@ class ConsoleTipInterface:
 def load_config() -> Dict[str, Any]:
     """Load configuration from environment variables"""
     config = {
-        "coral_connection_url": os.getenv("CORAL_CONNECTION_URL", "http://localhost:8080"),
+        "coral_connection_url": os.getenv("CORAL_CONNECTION_URL", "http://localhost:5555"),
         "agent_id": os.getenv("CONSOLE_AGENT_ID", "console"),
         "model_name": os.getenv("MODEL_NAME", "mistral-small"),
         "model_provider": os.getenv("MODEL_PROVIDER", "mistral"),
