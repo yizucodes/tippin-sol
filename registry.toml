@@ -1,8 +1,11 @@
 [[local-agent]]
-path = "agents/firecrawl"
+path = "agents/agents/console"
 
 [[local-agent]]
-path = "agents/github"
+path = "agents/validation"
 
 [[local-agent]]
-path = "agents/interface"
+path = "agents/transaction"
+
+[[local-agent]]
+path = "agents/notification"
